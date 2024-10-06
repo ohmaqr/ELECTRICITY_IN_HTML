@@ -1,0 +1,56 @@
+.card{
+    perspective: 1000px;
+    transform-style: preserve-3d;
+    > div {
+        backface-visibility: hidden;
+    }
+}
+
+.card.flipped {
+    transform: rotateY( 180deg );
+}
+
+/*flip 1 */
+
+
+.card1-back {
+    transform: rotateY(180deg) translate(50%,-50%);
+    top: 50%;
+    left: 50%;
+  
+}
+
+/*flip sum */
+
+.card3-back {
+    transform: rotateY(180deg) translate(50%,-50%);
+    top: 50%;
+    left: 50%;
+    background:linear-gradient( #d60000,#fecdd3,#ffffff,#4c61d8,#0a25c2);
+}
+
+/*40  - 63*/
+.cardA-back {
+    transform: rotateY(180deg) translate(50%,-50%);
+    top: 50%;
+    left: 50%;
+    background:linear-gradient( #dc2626,#fecdd3,#fb7185,#fecdd3,#dc2626);
+}
+.cardB-back {
+    transform: rotateY(180deg) translate(50%,-50%);
+    top: 50%;
+    left: 50%;
+    background:linear-gradient( #f97316,#ffedd5,#fdba74,#ffedd5,#f97316);
+}
+.cardC-back {
+    transform: rotateY(180deg) translate(50%,-50%);
+    top: 50%;
+    left: 50%;
+    background:linear-gradient(#eab308 ,#fef9c3,#fde047,#fef9c3,#eab308);
+}
+.cardD-back {
+    transform: rotateY(180deg) translate(50%,-50%);
+    top: 50%;
+    left: 50%;
+    background:linear-gradient(#65a30d,#ecfccb,#a3e635,#ecfccb,#65a30d);
+}
